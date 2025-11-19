@@ -1,4 +1,4 @@
-# Mi-Portafolio# 🌐 Portafolio Profesional – Edcarlin Celesten
+# Mi-Portafolio#  Edcarlin Celesten
 
 Bienvenido a mi portafolio web. Este proyecto fue creado con el objetivo de presentar mi experiencia, proyectos y habilidades en el área de **Ciberseguridad** y **Manejo de Datos**.
 
