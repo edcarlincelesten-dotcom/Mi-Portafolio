@@ -9,7 +9,7 @@ Bienvenido a mi portafolio web. Este proyecto fue creado con el objetivo de pres
 - **HTML5**
 - **CSS3**
 - **Font Awesome Icons**
-- **GitHub Pages** (para publicación)
+- **GitHub Pages** 
 
 ---
 
