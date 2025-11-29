@@ -64,14 +64,13 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* Mensaje de feedback */
 #mensaje {
   margin-top: 15px;
   font-size: 18px;
   min-height: 40px;
 }
 
-/* Estados del juego */
+
 .juego-ganado {
   box-shadow: 0 0 25px #00ff6a;
   border: 2px solid #00ff6a;
@@ -82,7 +81,7 @@ button:disabled {
   border: 2px solid #ff3b3b;
 }
 
-/* Animación suave para feedback */
+
 #mensaje {
   transition: 0.3s ease-in-out;
 }
@@ -100,15 +99,15 @@ body {
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
     transition: 0.3s ease-in-out;
 
-    /* Fondo de imagen SOLO dentro del recuadro */
+    
     background-image: url("adivino.png");
-    background-size: cover;      /* la imagen llena el cuadro */
-    background-position: center; /* centrada */
+    background-size: cover;     
+    background-position: center; 
     background-repeat: no-repeat;
     position: relative;
 }
 
-/* Para poner una capa oscura encima y que el texto se lea */
+
 .interfaz-juego::before {
     content: "";
     position: absolute;
@@ -116,13 +115,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.55); /* oscurece la imagen */
+    background: rgba(0,0,0,0.55); 
     z-index: 0;
     border-radius: 15px;
 }
 
-/* Para que todo el contenido se vea por encima */
+
 .interfaz-juego > * {
     position: relative;
     z-index: 1;
+}
+.projects-card {
+    margin-bottom: 30px;
 }
